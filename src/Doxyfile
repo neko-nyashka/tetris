@@ -1,0 +1,42 @@
+PROJECT_NAME           = "Tetris"
+PROJECT_NUMBER         = 1.0
+PROJECT_BRIEF          = "Документация для проекта Tetris"
+
+
+OUTPUT_DIRECTORY       = docs
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+
+
+INPUT                  = brick_game/tetris gui/cli
+FILE_PATTERNS          = *.c *.h
+RECURSIVE              = YES
+INPUT_ENCODING         = UTF-8
+
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+
+
+OPTIMIZE_OUTPUT_FOR_C  = YES
+MARKDOWN_SUPPORT       = YES
+
+
+GENERATE_HTML          = YES
+GENERATE_TREEVIEW      = YES
+HTML_COLORSTYLE        = AUTO_LIGHT
+HTML_COLORSTYLE_HUE    = 220
+HTML_COLORSTYLE_SAT    = 100
+HTML_COLORSTYLE_GAMMA  = 80
+
+
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_IF_INCOMPLETE_DOC = YES
+
+
+HAVE_DOT               = NO
